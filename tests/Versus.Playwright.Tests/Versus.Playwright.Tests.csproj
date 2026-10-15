@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Precept.TestPlatform" />
+    <PackageReference Include="Microsoft.Playwright" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Versus.Timing/Versus.Timing.csproj" />
+  </ItemGroup>
+</Project>

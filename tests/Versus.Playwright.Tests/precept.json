@@ -1,0 +1,15 @@
+{
+  "$schema": "https://autom3tion.github.io/precept-docs/precept.schema.json",
+  "MaxParallelism": 1,
+  "ParallelScope": "Test",
+  "DefaultRetries": 0,
+  "Versus": {
+    "PlaygroundUrl": "http://uitestingplayground.com",
+    "ToolshopUrl": "https://practicesoftwaretesting.com",
+    "ChromePath": "",
+    "ChromeDriverPath": "",
+    "TimeoutSeconds": 30,
+    "ToolshopEmail": "customer@practicesoftwaretesting.com",
+    "ToolshopPassword": "welcome01"
+  }
+}

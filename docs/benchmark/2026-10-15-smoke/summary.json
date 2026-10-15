@@ -1,0 +1,687 @@
+{
+  "env": {
+    "machine": "macbook-pro-sergejs",
+    "os": "macOS 27.0.1",
+    "cpu": "Apple M2 Pro",
+    "cores": 12,
+    "ramBytes": 17179869184,
+    "dotnetRuntime": ".NET 10.0.11",
+    "dotnetSdk": "10.0.400",
+    "chromeVersion": "155.0.8059.79",
+    "packages": {
+      "Precept.TestPlatform": "0.12.0",
+      "Precept.Core": "0.12.0",
+      "Microsoft.Playwright": "1.63.0",
+      "Selenium.WebDriver": "4.51.0",
+      "Selenium.Support": "4.51.0",
+      "ScottPlot": "5.1.59",
+      "Microsoft.CodeAnalysis.CSharp": "5.9.0",
+      "Microsoft.Extensions.TimeProvider.Testing": "10.11.0"
+    },
+    "dateUtc": "2026-10-15T19:08:59.832395+00:00",
+    "latencyMs": {
+      "http://uitestingplayground.com/": 119.9978,
+      "https://practicesoftwaretesting.com/": 65.7487
+    }
+  },
+  "rounds": 1,
+  "workers": [
+    1,
+    2
+  ],
+  "siteDownReruns": 0,
+  "runCrashes": 0,
+  "perTest": [
+    {
+      "testKey": "Flakiness.AjaxTests.LabelAppearsAfterAjaxRequest",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 16071.4912,
+      "p95BodyMs": 16071.4912,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.AjaxTests.LabelAppearsAfterAjaxRequest",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 15873.7052,
+      "p95BodyMs": 15873.7052,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.AnimationTests.MovingTargetIsClickedAfterAnimation",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 6067.0684,
+      "p95BodyMs": 6067.0684,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.AnimationTests.MovingTargetIsClickedAfterAnimation",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 5873.7357,
+      "p95BodyMs": 5873.7357,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.AutoWaitTests.ButtonIsClickedOnceItBecomesInteractable",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 5795.5835,
+      "p95BodyMs": 5795.5835,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.AutoWaitTests.ButtonIsClickedOnceItBecomesInteractable",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 5919.8275,
+      "p95BodyMs": 5919.8275,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.ClassAttrTests.PrimaryButtonRaisesAlert",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 713.3692,
+      "p95BodyMs": 713.3692,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.ClassAttrTests.PrimaryButtonRaisesAlert",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 579.7279,
+      "p95BodyMs": 579.7279,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.ClientDelayTests.LabelAppearsAfterClientSideDelay",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 16152.708,
+      "p95BodyMs": 16152.708,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.ClientDelayTests.LabelAppearsAfterClientSideDelay",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 15824.8496,
+      "p95BodyMs": 15824.8496,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.DynamicIdTests.ButtonIsFoundWithoutItsId",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 682.2853,
+      "p95BodyMs": 682.2853,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.DynamicIdTests.ButtonIsFoundWithoutItsId",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 539.4645,
+      "p95BodyMs": 539.4645,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.HiddenLayersTests.GreenButtonCannotBeClickedTwice",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": null,
+      "p95BodyMs": null,
+      "speedExcluded": true,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.HiddenLayersTests.GreenButtonCannotBeClickedTwice",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": null,
+      "p95BodyMs": null,
+      "speedExcluded": true,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.LoadDelayTests.ButtonAppearsAfterSlowPageLoad",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 6330.1755,
+      "p95BodyMs": 6330.1755,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.LoadDelayTests.ButtonAppearsAfterSlowPageLoad",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 6287.0935,
+      "p95BodyMs": 6287.0935,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.MouseOverTests.ClickCountGoesUpOnEachClick",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 783.4865,
+      "p95BodyMs": 783.4865,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.MouseOverTests.ClickCountGoesUpOnEachClick",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 573.1099,
+      "p95BodyMs": 573.1099,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.OverlappedTests.NameFieldAcceptsTextOnceScrolledIntoView",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 673.5549,
+      "p95BodyMs": 673.5549,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.OverlappedTests.NameFieldAcceptsTextOnceScrolledIntoView",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 1043.3512,
+      "p95BodyMs": 1043.3512,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.ProgressBarTests.StopsCloseToSeventyFivePercent",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 19678.6767,
+      "p95BodyMs": 19678.6767,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.ProgressBarTests.StopsCloseToSeventyFivePercent",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 15827.8461,
+      "p95BodyMs": 15827.8461,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.ScrollToClickTests.AllFourButtonsCanBeClicked",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 831.1056,
+      "p95BodyMs": 831.1056,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.ScrollToClickTests.AllFourButtonsCanBeClicked",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 1024.257,
+      "p95BodyMs": 1024.257,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.ShadowDomTests.GeneratedGuidHasTheRightFormat",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 683.8618,
+      "p95BodyMs": 683.8618,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.ShadowDomTests.GeneratedGuidHasTheRightFormat",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 551.3928,
+      "p95BodyMs": 551.3928,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.TextInputTests.ButtonTakesTheTypedName",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 670.0563,
+      "p95BodyMs": 670.0563,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.TextInputTests.ButtonTakesTheTypedName",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 713.602,
+      "p95BodyMs": 713.602,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.VerifyTextTests.WelcomeTextIgnoresExtraWhitespace",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 631.3499,
+      "p95BodyMs": 631.3499,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.VerifyTextTests.WelcomeTextIgnoresExtraWhitespace",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 649.672,
+      "p95BodyMs": 649.672,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.VisibilityTests.HiddenButtonsAreNotVisible",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 680.9594,
+      "p95BodyMs": 680.9594,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Flakiness.VisibilityTests.HiddenButtonsAreNotVisible",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 573.8047,
+      "p95BodyMs": 573.8047,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Journeys.AddToCartTests.CartBadgeCountsTheProduct",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 1024.1745,
+      "p95BodyMs": 1024.1745,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Journeys.AddToCartTests.CartBadgeCountsTheProduct",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 2604.3442,
+      "p95BodyMs": 2604.3442,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Journeys.BrowseTests.HomePageShowsProductGrid",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 407.9871,
+      "p95BodyMs": 407.9871,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Journeys.BrowseTests.HomePageShowsProductGrid",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 685.0838,
+      "p95BodyMs": 685.0838,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Journeys.CheckoutTests.ReachesPaymentStepWithoutOrdering",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 2718.0258,
+      "p95BodyMs": 2718.0258,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Journeys.CheckoutTests.ReachesPaymentStepWithoutOrdering",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 10064.6527,
+      "p95BodyMs": 10064.6527,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Journeys.FilterAndSortTests.HammersSortedByPriceAscending",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 823.3887,
+      "p95BodyMs": 823.3887,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Journeys.FilterAndSortTests.HammersSortedByPriceAscending",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 1818.7879,
+      "p95BodyMs": 1818.7879,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Journeys.LoginTests.DemoCustomerReachesAccountPage",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 1119.8057,
+      "p95BodyMs": 1119.8057,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Journeys.LoginTests.DemoCustomerReachesAccountPage",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 1423.5314,
+      "p95BodyMs": 1423.5314,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Journeys.SearchTests.FindsProductByName",
+      "tool": "Playwright",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 640.9142,
+      "p95BodyMs": 640.9142,
+      "speedExcluded": false,
+      "failures": {}
+    },
+    {
+      "testKey": "Journeys.SearchTests.FindsProductByName",
+      "tool": "Selenium",
+      "runs": 2,
+      "passed": 2,
+      "passRate": 1,
+      "medianBodyMs": 1338.1082,
+      "p95BodyMs": 1338.1082,
+      "speedExcluded": false,
+      "failures": {}
+    }
+  ],
+  "perTool": [
+    {
+      "tool": "Playwright",
+      "medianSetupMs": 113.68934999999999,
+      "medianTeardownMs": 5.7994,
+      "medianLaunchMs": 552.5867000000001,
+      "passRate": 1,
+      "speedTotalMs": 83180.02819999999,
+      "speedTests": 21
+    },
+    {
+      "tool": "Selenium",
+      "medianSetupMs": 459.63834999999995,
+      "medianTeardownMs": 73.77085,
+      "medianLaunchMs": null,
+      "passRate": 1,
+      "speedTotalMs": 89789.94780000001,
+      "speedTests": 21
+    }
+  ],
+  "scaling": [
+    {
+      "tool": "Playwright",
+      "workers": 1,
+      "medianWallMs": 88814.5993,
+      "medianPeakRssMb": 1501.53125,
+      "medianCpuPercent": 33.654376910531184
+    },
+    {
+      "tool": "Playwright",
+      "workers": 2,
+      "medianWallMs": 57280.5334,
+      "medianPeakRssMb": 1949.03125,
+      "medianCpuPercent": 48.37594616393713
+    },
+    {
+      "tool": "Selenium",
+      "workers": 1,
+      "medianWallMs": 104109.0221,
+      "medianPeakRssMb": 1359.078125,
+      "medianCpuPercent": 47.632759293778854
+    },
+    {
+      "tool": "Selenium",
+      "workers": 2,
+      "medianWallMs": 53204.7678,
+      "medianPeakRssMb": 2423.484375,
+      "medianCpuPercent": 87.13504769773657
+    }
+  ],
+  "loc": [
+    {
+      "key": "Flakiness.AjaxTests.LabelAppearsAfterAjaxRequest",
+      "playwright": 5,
+      "selenium": 6
+    },
+    {
+      "key": "Flakiness.AnimationTests.MovingTargetIsClickedAfterAnimation",
+      "playwright": 8,
+      "selenium": 8
+    },
+    {
+      "key": "Flakiness.AutoWaitTests.ButtonIsClickedOnceItBecomesInteractable",
+      "playwright": 9,
+      "selenium": 9
+    },
+    {
+      "key": "Flakiness.ClassAttrTests.PrimaryButtonRaisesAlert",
+      "playwright": 12,
+      "selenium": 8
+    },
+    {
+      "key": "Flakiness.ClientDelayTests.LabelAppearsAfterClientSideDelay",
+      "playwright": 5,
+      "selenium": 6
+    },
+    {
+      "key": "Flakiness.DynamicIdTests.ButtonIsFoundWithoutItsId",
+      "playwright": 4,
+      "selenium": 4
+    },
+    {
+      "key": "Flakiness.HiddenLayersTests.GreenButtonCannotBeClickedTwice",
+      "playwright": 9,
+      "selenium": 9
+    },
+    {
+      "key": "Flakiness.LoadDelayTests.ButtonAppearsAfterSlowPageLoad",
+      "playwright": 6,
+      "selenium": 6
+    },
+    {
+      "key": "Flakiness.MouseOverTests.ClickCountGoesUpOnEachClick",
+      "playwright": 7,
+      "selenium": 6
+    },
+    {
+      "key": "Flakiness.OverlappedTests.NameFieldAcceptsTextOnceScrolledIntoView",
+      "playwright": 7,
+      "selenium": 7
+    },
+    {
+      "key": "Flakiness.ProgressBarTests.StopsCloseToSeventyFivePercent",
+      "playwright": 9,
+      "selenium": 10
+    },
+    {
+      "key": "Flakiness.ScrollToClickTests.AllFourButtonsCanBeClicked",
+      "playwright": 9,
+      "selenium": 9
+    },
+    {
+      "key": "Flakiness.ShadowDomTests.GeneratedGuidHasTheRightFormat",
+      "playwright": 6,
+      "selenium": 7
+    },
+    {
+      "key": "Flakiness.TextInputTests.ButtonTakesTheTypedName",
+      "playwright": 6,
+      "selenium": 6
+    },
+    {
+      "key": "Flakiness.VerifyTextTests.WelcomeTextIgnoresExtraWhitespace",
+      "playwright": 4,
+      "selenium": 5
+    },
+    {
+      "key": "Flakiness.VisibilityTests.HiddenButtonsAreNotVisible",
+      "playwright": 8,
+      "selenium": 8
+    },
+    {
+      "key": "Journeys.AddToCartTests.CartBadgeCountsTheProduct",
+      "playwright": 11,
+      "selenium": 11
+    },
+    {
+      "key": "Journeys.BrowseTests.HomePageShowsProductGrid",
+      "playwright": 4,
+      "selenium": 4
+    },
+    {
+      "key": "Journeys.CheckoutTests.ReachesPaymentStepWithoutOrdering",
+      "playwright": 24,
+      "selenium": 28
+    },
+    {
+      "key": "Journeys.FilterAndSortTests.HammersSortedByPriceAscending",
+      "playwright": 8,
+      "selenium": 8
+    },
+    {
+      "key": "Journeys.LoginTests.DemoCustomerReachesAccountPage",
+      "playwright": 8,
+      "selenium": 8
+    },
+    {
+      "key": "Journeys.SearchTests.FindsProductByName",
+      "playwright": 8,
+      "selenium": 8
+    },
+    {
+      "key": "(fixture)",
+      "playwright": 96,
+      "selenium": 81
+    }
+  ]
+}

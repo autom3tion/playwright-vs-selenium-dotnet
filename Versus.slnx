@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Versus.Timing/Versus.Timing.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Versus.Bench.Tests/Versus.Bench.Tests.csproj" />
+    <Project Path="tests/Versus.Playwright.Tests/Versus.Playwright.Tests.csproj" />
+    <Project Path="tests/Versus.Selenium.Tests/Versus.Selenium.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/Versus.Bench/Versus.Bench.csproj" />
+  </Folder>
+</Solution>

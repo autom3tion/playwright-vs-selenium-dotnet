@@ -1,0 +1,6 @@
+{
+  "$schema": "https://autom3tion.github.io/precept-docs/precept.schema.json",
+  "MaxParallelism": 4,
+  "ParallelScope": "Test",
+  "DefaultRetries": 0
+}

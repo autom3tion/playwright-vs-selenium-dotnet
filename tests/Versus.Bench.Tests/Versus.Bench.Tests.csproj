@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Precept.TestPlatform" />
+    <PackageReference Include="Microsoft.Extensions.TimeProvider.Testing" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Versus.Timing/Versus.Timing.csproj" />
+    <ProjectReference Include="../../tools/Versus.Bench/Versus.Bench.csproj" />
+  </ItemGroup>
+</Project>
